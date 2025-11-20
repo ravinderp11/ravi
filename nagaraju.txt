@@ -1,0 +1,21 @@
+sudo apt install git –y      = To install the git in linux server.
+git --version     = To find the Git version
+git config --global user.name "Your Name"
+git config --global user.email your-email@example.com
+git config --list   = It will your git configuration details
+ssh-keygen   = To generate the key in workstation (While we are creating  just type enter twice)
+$ cd .ssh/    =Get into the ssh key
+cat id_ed25519.pub   -For viewing the public key.
+Next go to the setting in git hub Developer settingsPersonal access tokenTokens classic  paste that copy from workstation.
+ssh -T git@github.com   - use this commad and type yes
+ Create one folder mkdir folder name (Git)
+Go to that folder and use command   git init 
+git add .   =Initialize a new local repo
+git remote set-url origin git@github.com ravinderp11/ravi.git  For HTTPS
+git remote add origin https://github.com/ravinderp11/ravi.git     For SSh
+    =     for adding git account (Add the remote origin)
+git remote –v     =to fetch the account details
+git branch  = for looking into the list of branches
+code file.txt    =Create one file.
+git push -u origin master  -  Push using the correct branch
+git push -u origin 
